@@ -30,7 +30,7 @@ author:
   avatar           : "images/chi_profile.jpeg"
   bio              : "BRAIN, Renmin University of China"
   location         : "Beijing, China"
-  employer         : "Renmin University of China"
+  employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   email            : "zhiyuanji@ruc.edu.cn"
@@ -48,7 +48,7 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "zhiyuan-ji-ruc"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
