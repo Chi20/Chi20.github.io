@@ -6,9 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+locale                   : "en-US"
+title                    : "Zhiyuan Ji"
+title_separator          : "-"
+name                     : &name "Zhiyuan Ji"
+description              : &description "Academic homepage of Zhiyuan Ji"
+url                      : "https://chi20.github.io"
+baseurl                  : ""
+repository               : "Chi20/Chi20.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +26,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
+  name             : "Zhiyuan Ji"
+  avatar           : "images/chi_profile.jpeg"
+  bio              : "BRAIN, Renmin University of China"
   location         : "Beijing, China"
-  employer         :
+  employer         : "Renmin University of China"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  email            : "zhiyuanji@ruc.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +42,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "Chi20"
   google_plus      :
   keybase          :
   instagram        :

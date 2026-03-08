@@ -3,56 +3,70 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Ph.D. student in Big Data Science and Engineering at the [BRAIN Lab](https://brain.ruc.edu.cn/), [Renmin University of China](https://en.ruc.edu.cn/), supervised by Prof. Yueguo Chen. I received my Bachelor's degree in Data Science and Big Data Technology from the [College of Information Science and Technology](https://en-cist.buct.edu.cn/main.htm), [Beijing University of Chemical Technology](https://english.buct.edu.cn/main.htm). My research interests include LLM-based agents, financial AI, and graph machine learning.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+<span class='anchor' id='news'></span>
+## News
 
+- *2025.06*: One paper was accepted by **IEEE ICDM 2025**.
+- *2025.05*: One paper was accepted by **ACL 2025**.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='publications'></span>
+## Publications
 
-# 📝 Publications 
+### Published Papers
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- [MoC: Mixtures of Text Chunking Learners for Retrieval-Augmented Generation System (ACL 2025)](https://arxiv.org/abs/2503.09600).  
+  Jihao Zhao, **Zhiyuan Ji**, Zhaoxin Fan, Hanyu Wang, Simin Niu, Bo Tang, Feiyu Xiong, Zhiyu Li.
+- [Beyond the Pre-Service Horizon: Infusing In-Service Behavior for Improved Financial Risk Forecasting (IEEE ICDM 2025)](https://scholar.google.com/scholar?q=Beyond+the+Pre-Service+Horizon+Infusing+In-Service+Behavior+for+Improved+Financial+Risk+Forecasting).  
+  Senhao Liu, Zhiyu Guo, **Zhiyuan Ji**, Yueguo Chen, Yateng Tang, Yunhai Wang, Xuehao Zheng, Xiang Ao.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<span class='anchor' id='preprints'></span>
+## Preprints
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- [Meta-Chunking: Learning Text Segmentation and Semantic Compensation via Logical Perception (Under Review)](https://arxiv.org/abs/2410.12788).  
+  Jihao Zhao, **Zhiyuan Ji**, Yuchen Feng, Pengnian Qi, Simin Niu, Bo Tang, Feiyu Xiong, Zhiyu Li.
+- [MoM: Mixtures of Scenario-Aware Document Memories for Hierarchical Retrieval-Augmented Generation (Under Review)](https://arxiv.org/abs/2510.14252).  
+  Jihao Zhao, **Zhiyuan Ji**, Simin Niu, Hanyu Wang, Feiyu Xiong, Zhiyu Li.
+- Emergent Relational Order in LLM Agent Societies: From Collective Affect to Authority Stratification (Under Review).  
+  **Zhiyuan Ji**, Xinyu Chen, Ziqi Dai, Shiyun Tang, Chunyu Wei, Yueguo Chen.
+- FinKAN: A Comprehensive KANs-Based Architecture for Heterogeneous Stock Price Forecasting (Under Review).  
+  **Zhiyuan Ji**, Siyuan He, Jiabin Luo, Xinyu Chen, Yueguo Chen.
+- [Writer-R1: Enhancing Generative Writing in LLMs via Memory-augmented Replay Policy Optimization (Under Review)](https://scholar.google.com/scholar?q=Writer-R1+Enhancing+Generative+Writing+in+LLMs+via+Memory-augmented+Replay+Policy+Optimization).  
+  Jihao Zhao, Shuaishuai Zu, **Zhiyuan Ji**, Chunlai Zhou, Biao Qin.
+- Information-Preserving Graph Coarsening for Multi-Agent Debate (In Progress).  
+  **Zhiyuan Ji**, Yiheng Wang, Jihao Zhao, Xinyu Chen, Chunyu Wei, Yueguo Chen.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+<span class='anchor' id='education'></span>
+## Education
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- *Sep 2023 - Jun 2028 (Expected)*, Ph.D. in Big Data Science and Engineering, Renmin University of China, Beijing, China.
+- *Sep 2019 - Jun 2023*, B.Eng. in Data Science and Big Data Technology (AI Track), Beijing University of Chemical Technology, Beijing, China.
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='experience'></span>
+## Work Experience
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *Sep 2023 - Present*, Omnind Inc. / Vanwise AI Technology (Guangdong) Co., Ltd., Chief Technology Officer, Ontario (Canada) and Guangzhou (China). Led enterprise-grade large-model product architecture for multimodal interaction and secure knowledge retrieval. Established strategic technical collaborations with Microsoft and ZSoft AI Cloud.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<span class='anchor' id='internships'></span>
+## Internships
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *Jun 2024 - Dec 2024*, Shenwan Hongyuan Securities and Industrial Bank Co., Ltd., Information Technology Development Intern, Beijing.
+- *Jun 2025 - Present*, Future Humanity Joint Research Institute, Executive Lead, Beijing.
+
+<span class='anchor' id='honors'></span>
+## Honors and Awards
+
+- AWS Global Startup Accelerator (Top 100), 2024.
+- Huawei ICT National Finals, Innovation First Prize, 2025.
+- AFAC2025 Financial AI Innovation Competition, Outstanding Award.
+- National Scholarship, 2023.
+- First Class Scholarship for PhD Student, Renmin University of China, 2024.
+- Outstanding Graduates of Beijing, 2023.
